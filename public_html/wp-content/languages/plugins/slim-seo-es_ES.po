@@ -1,0 +1,302 @@
+# Translation of Plugins - Slim SEO &#8211; Fast &amp; Automated WordPress SEO Plugin - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Slim SEO &#8211; Fast &amp; Automated WordPress SEO Plugin - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-12-24 09:30:39+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Slim SEO &#8211; Fast &amp; Automated WordPress SEO Plugin - Stable (latest release)\n"
+
+#: src/Settings/Settings.php:44
+msgid "Code"
+msgstr "Código"
+
+#: src/Settings/Settings.php:43
+msgid "Features"
+msgstr "Características"
+
+#: src/Settings/sections/general.php:1
+msgid "Toggle the features you want to use on your website."
+msgstr "Cambia las características que quieres usar en tu web."
+
+#: src/Settings/sections/general.php:19
+msgid "Meta robots"
+msgstr "Meta robots"
+
+#: src/Settings/sections/general.php:33
+msgid "Twitter cards"
+msgstr "Tarjetas de Twitter"
+
+#: src/Settings/sections/general.php:40
+msgid "Canonical URL"
+msgstr "URL canónica"
+
+#: src/Settings/sections/general.php:47
+msgid "\"rel\" links"
+msgstr "Enlaces «rel»"
+
+#: src/Settings/sections/general.php:54
+msgid "Sitemaps"
+msgstr "Mapas del sitio"
+
+#: src/Settings/sections/general.php:61
+msgid "Image alt text"
+msgstr "Texto «alt» de la imagen"
+
+#: src/Settings/sections/general.php:75
+msgid "Auto redirection"
+msgstr "Redirección automática"
+
+#: src/Settings/sections/general.php:82
+msgid "RSS feed"
+msgstr "Feed RSS"
+
+#: src/Settings/sections/general.php:89
+msgid "Schema"
+msgstr "Schema"
+
+#: src/Migration/Helper.php:25
+msgid "Rank Math"
+msgstr "Rank Math"
+
+#: src/Settings/sections/social.php:1
+msgid "Default Social Images"
+msgstr "Imágenes sociales por defecto"
+
+#: src/Settings/sections/social.php:2
+msgid "These images are used when the post/page being shared does not have featured image or social images set up."
+msgstr "Estas imágenes son usadas cuando la entrada/página que se está compartiendo no tiene una imagen destacada o imágenes sociales configuradas."
+
+#: src/Settings/Settings.php:48
+msgid "Social"
+msgstr "Social"
+
+#: src/Activator.php:20
+msgid "Settings"
+msgstr "Ajustes"
+
+#: src/Settings/sections/code.php:14
+msgid "Body Code"
+msgstr "Código del cuerpo"
+
+#: src/Settings/sections/code.php:18
+msgid "Code entered in this box will be printed after the opening <code>&lt;body&gt;</code> tag."
+msgstr "El código introducido en esta caja será mostrado antes de la etiqueta de apertura <code>&lt;body&gt;</code>."
+
+#: src/MetaTags/Description.php:63
+msgid "There is no excerpt because this is a protected post."
+msgstr "No hay ningún extracto porque esta es una entrada protegida."
+
+#: src/Settings/Settings.php:46
+msgid "Homepage"
+msgstr "Página de inicio"
+
+#: src/Settings/Settings.php:74
+msgid "Starting..."
+msgstr "Empezando…"
+
+#: src/Settings/Settings.php:73
+msgid "Done!"
+msgstr "¡Hecho!"
+
+#: src/Settings/sections/tools.php:13
+msgid "Migrate"
+msgstr "Migrar"
+
+#: src/Settings/Settings.php:49
+msgid "Tools"
+msgstr "Herramientas"
+
+#: src/Migration/Helper.php:24
+msgid "The SEO Framework"
+msgstr "The SEO Framework"
+
+#: src/Migration/Helper.php:22
+msgid "Yoast SEO"
+msgstr "Yoast SEO"
+
+#: src/Migration/Migration.php:33
+msgid "No platforms selected"
+msgstr "No hay plataformas seleccionadas"
+
+#. Translators: %d is the number of processed posts.
+#: src/Migration/Migration.php:81
+msgid "Processed %d posts..."
+msgstr "Procesadas %d entradas..."
+
+#. Translators: %d is the number of processed items.
+#: src/Migration/Migration.php:106
+msgid "Processed %d terms..."
+msgstr "Procesados %d términos..."
+
+#: src/Settings/sections/tools.php:1
+msgid "Migrate SEO Data"
+msgstr "Migrar los datos SEO"
+
+#: src/Settings/sections/tools.php:6
+msgid "Migrate SEO data from:"
+msgstr "Migrar los datos SEO desde:"
+
+#: src/Settings/sections/tools.php:3
+msgid "Before performing an import, we strongly recommend that you make a backup of your site."
+msgstr "Antes de realizar una importación, recomendamos encarecidamente que hagas una copia de seguridad de tu sitio."
+
+#: src/Settings/sections/tools.php:2
+msgid "Use the drop down below to choose which plugin you wish to import SEO data from."
+msgstr "Usa el siguiente desplegable para elegir desde qué plugin deseas importar los datos SEO."
+
+#. Translators: %s is the plugin name.
+#: src/Migration/Migration.php:50
+msgid "Please activate %s plugin to use this feature. You can deactivate it after migration."
+msgstr "Por favor, activa el plugin %s para usar esta característica. Puedes desactivarlo después de la migración."
+
+#: src/MetaTags/Settings/Base.php:20 src/Settings/Settings.php:79
+msgid "Select An Image"
+msgstr "Selecciona una imagen"
+
+#: src/MetaTags/Settings/Base.php:85 src/Settings/sections/homepage.php:43
+#: src/Settings/sections/social.php:21
+msgid "Twitter image"
+msgstr "Imagen para Twitter"
+
+#: src/MetaTags/Settings/Base.php:71 src/Settings/sections/homepage.php:29
+#: src/Settings/sections/social.php:6
+msgid "Facebook image"
+msgstr "Imagen para Facebook"
+
+#: src/MetaTags/Settings/Base.php:79 src/Settings/sections/homepage.php:37
+#: src/Settings/sections/social.php:14
+msgid "Recommended size: 1200x628 px."
+msgstr "Tamaño recomendado: 1200x628 px."
+
+#: src/MetaTags/Settings/Base.php:93 src/Settings/sections/homepage.php:51
+#: src/Settings/sections/social.php:29
+msgid "Recommended size: 800x418 px."
+msgstr "Tamaño recomendado: 800x418 px."
+
+#: src/MetaTags/Settings/Base.php:76 src/MetaTags/Settings/Base.php:90
+#: src/Settings/sections/homepage.php:34 src/Settings/sections/homepage.php:48
+#: src/Settings/sections/social.php:11 src/Settings/sections/social.php:26
+msgid "Select image"
+msgstr "Seleccionar la imagen"
+
+#: src/MetaTags/Settings/Base.php:65 src/Settings/sections/homepage.php:23
+msgid "Recommended length: 50-160 characters."
+msgstr "Longitud recomendada: 50-160 caracteres."
+
+#: src/MetaTags/Settings/Base.php:52 src/Settings/sections/homepage.php:10
+msgid "Recommended length: ≤ 60 characters."
+msgstr "Longitud recomendada: ≤ 60 caracteres."
+
+#: src/MetaTags/Settings/Base.php:50 src/MetaTags/Settings/Base.php:63
+#: src/Settings/sections/homepage.php:8 src/Settings/sections/homepage.php:21
+msgid "Character count:"
+msgstr "Recuento de caracteres:"
+
+#: src/MetaTags/Settings/Post.php:25 src/MetaTags/Settings/Term.php:7
+msgid "Search Engine Optimization"
+msgstr "Optimización para motores de búsqueda"
+
+#: src/Settings/sections/code.php:9
+msgid "Code entered in this box will be printed in the <code>&lt;head&gt;</code> section."
+msgstr "El código introducido en este cuadro se insertará en la sección <code>&lt;head&gt;</code>."
+
+#: src/Settings/sections/code.php:27
+msgid "Code entered in this box will be printed before the closing <code>&lt;/body&gt;</code> tag."
+msgstr "El código introducido en este cuadro se insertará antes de la etiqueta de cierre <code>&lt;/body&gt;</code>."
+
+#: src/Settings/sections/code.php:5
+msgid "Header Code"
+msgstr "Código de la cabecera"
+
+#: src/Settings/sections/code.php:23
+msgid "Footer Code"
+msgstr "Código del pie de página"
+
+#: src/MetaTags/Settings/Base.php:99
+msgid "Hide from search results"
+msgstr "Ocultar de los resultados de búsqueda"
+
+#: src/MetaTags/AdminColumns/Base.php:21 src/MetaTags/Settings/Base.php:58
+#: src/Settings/sections/general.php:12 src/Settings/sections/homepage.php:16
+msgid "Meta description"
+msgstr "Descripción meta"
+
+#: src/MetaTags/AdminColumns/Base.php:20 src/MetaTags/Settings/Base.php:45
+#: src/Settings/sections/general.php:5 src/Settings/sections/homepage.php:3
+msgid "Meta title"
+msgstr "Título meta"
+
+#: src/Settings/sections/code.php:1
+msgid "Use these settings to insert code from Google Tag Manager, Google Analytics or webmaster tools verification."
+msgstr "Usa estos ajustes para insertar el código de Google Tag Manager, Google Analytics o la verificación de las herramientas de webmaster."
+
+#. Plugin URI of the plugin
+msgid "https://wpslimseo.com"
+msgstr "https://wpslimseo.com"
+
+#: src/Notification.php:92
+msgid "Your website does not use HTTPS. Please upgrade your host to fix this."
+msgstr "Tu web no usa HTTPS. Por favor, actualiza tu alojamiento para corregirlo."
+
+#. Description of the plugin
+msgid "A fast and automated SEO plugin for WordPress."
+msgstr "Un plugin SEO rápido y automatizado para WordPress."
+
+#: src/Notification.php:45
+msgid "Slim SEO:"
+msgstr "Slim SEO:"
+
+#: src/Feed.php:13
+msgid "Source"
+msgstr "Fuente"
+
+#: src/Breadcrumbs.php:35 src/Settings/sections/general.php:68
+msgid "Breadcrumbs"
+msgstr "Migas de pan"
+
+#. Translators: search query.
+#: src/Breadcrumbs.php:18
+msgid "Page not found"
+msgstr "Página no encontrada"
+
+#: src/Breadcrumbs.php:15
+msgid "Home"
+msgstr "Inicio"
+
+#. Translators: %s is the link to the Reading settings page.
+#: src/Notification.php:79
+msgid "Your site is not visible to search engines. <a href=\"%s\">Fix this &rarr;</a>"
+msgstr "Tu sitio no es visible para los motores de búsqueda. <a href=\"%s\">Corrígelo &rarr;</a>"
+
+#. Translators: %s is the link to the Reading settings page.
+#: src/Notification.php:86
+msgid "Your RSS feed shows full text. <a href=\"%s\">Fix this &rarr;</a>"
+msgstr "Tu feed RSS muestra el texto completo. <a href=\"%s\">Corrígelo &rarr;</a>"
+
+#. Translators: %s is the link to the Permalink settings page.
+#: src/Notification.php:72
+msgid "You are not using pretty permalink structure. <a href=\"%s\">Fix this &rarr;</a>"
+msgstr "No estás usando una estructura bonita de enlaces permanentes. <a href=\"%s\">Corrígelo &rarr;</a>"
+
+#. Translators: search query.
+#: src/Breadcrumbs.php:17
+msgid "Search Results for &#8220;%s&#8221;"
+msgstr "Resultados de la búsqueda de «%s»"
+
+#. Author URI of the plugin
+msgid "https://elightup.com"
+msgstr "https://elightup.com"
+
+#. Author of the plugin
+msgid "eLightUp"
+msgstr "eLightUp"
+
+#. Plugin Name of the plugin
+#: src/Settings/Page.php:11 src/Settings/Page.php:12
+msgid "Slim SEO"
+msgstr "Slim SEO"

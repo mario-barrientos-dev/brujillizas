@@ -1,0 +1,92 @@
+# BEGIN LSCACHE
+## LITESPEED WP CACHE PLUGIN - Do not edit the contents of this block! ##
+<IfModule LiteSpeed>
+RewriteEngine on
+CacheLookup on
+RewriteRule .* - [E=Cache-Control:no-autoflush]
+RewriteRule \.litespeed_conf\.dat - [F,L]
+
+### marker CACHE RESOURCE start ###
+RewriteRule wp-content/.*/[^/]*(responsive|css|js|dynamic|loader|fonts)\.php - [E=cache-control:max-age=3600]
+### marker CACHE RESOURCE end ###
+
+### marker FAVICON start ###
+RewriteRule favicon\.ico$ - [E=cache-control:max-age=86400]
+### marker FAVICON end ###
+
+### marker DROPQS start ###
+CacheKeyModify -qs:fbclid
+CacheKeyModify -qs:gclid
+CacheKeyModify -qs:utm*
+CacheKeyModify -qs:_ga
+### marker DROPQS end ###
+
+</IfModule>
+## LITESPEED WP CACHE PLUGIN - Do not edit the contents of this block! ##
+# END LSCACHE
+# BEGIN NON_LSCACHE
+## LITESPEED WP CACHE PLUGIN - Do not edit the contents of this block! ##
+## LITESPEED WP CACHE PLUGIN - Do not edit the contents of this block! ##
+# END NON_LSCACHE
+# BEGIN WordPress
+# Las directivas (líneas) entre «BEGIN WordPress» y «END WordPress» son
+# generadas dinámicamente y solo deberían ser modificadas mediante filtros de WordPress.
+# Cualquier cambio en las directivas que hay entre esos marcadores serán sobrescritas.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+
+# BEGIN HttpHeaders
+# Las directivas (líneas) entre «BEGIN HttpHeaders» y «END HttpHeaders» son
+# generadas dinámicamente y solo deberían ser modificadas mediante filtros de WordPress.
+# Cualquier cambio en las directivas que hay entre esos marcadores serán sobrescritas.
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  <FilesMatch "\.(php|html)$">
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set X-XSS-Protection "0"
+    Header set X-Download-Options "noopen"
+  </FilesMatch>
+</IfModule>
+# END HttpHeaders
+# BEGIN HttpHeadersAuth
+# Las directivas (líneas) entre «BEGIN HttpHeadersAuth» y «END HttpHeadersAuth» son
+# generadas dinámicamente y solo deberían ser modificadas mediante filtros de WordPress.
+# Cualquier cambio en las directivas que hay entre esos marcadores serán sobrescritas.
+# END HttpHeadersAuth
+# BEGIN HttpHeadersCompression
+# Las directivas (líneas) entre «BEGIN HttpHeadersCompression» y «END HttpHeadersCompression» son
+# generadas dinámicamente y solo deberían ser modificadas mediante filtros de WordPress.
+# Cualquier cambio en las directivas que hay entre esos marcadores serán sobrescritas.
+# END HttpHeadersCompression
+# BEGIN HttpHeadersContentType
+# Las directivas (líneas) entre «BEGIN HttpHeadersContentType» y «END HttpHeadersContentType» son
+# generadas dinámicamente y solo deberían ser modificadas mediante filtros de WordPress.
+# Cualquier cambio en las directivas que hay entre esos marcadores serán sobrescritas.
+# END HttpHeadersContentType
+# BEGIN HttpHeadersExpires
+# Las directivas (líneas) entre «BEGIN HttpHeadersExpires» y «END HttpHeadersExpires» son
+# generadas dinámicamente y solo deberían ser modificadas mediante filtros de WordPress.
+# Cualquier cambio en las directivas que hay entre esos marcadores serán sobrescritas.
+# END HttpHeadersExpires
+# BEGIN HttpHeadersCookieSecurity
+# Las directivas (líneas) entre «BEGIN HttpHeadersCookieSecurity» y «END HttpHeadersCookieSecurity» son
+# generadas dinámicamente y solo deberían ser modificadas mediante filtros de WordPress.
+# Cualquier cambio en las directivas que hay entre esos marcadores serán sobrescritas.
+<IfModule mod_headers.c>
+  Header always edit Set-Cookie (.*) "$1;Secure"
+</IfModule>
+# END HttpHeadersCookieSecurity
+# BEGIN HttpHeadersTiming
+# Las directivas (líneas) entre «BEGIN HttpHeadersTiming» y «END HttpHeadersTiming» son
+# generadas dinámicamente y solo deberían ser modificadas mediante filtros de WordPress.
+# Cualquier cambio en las directivas que hay entre esos marcadores serán sobrescritas.
+# END HttpHeadersTiming
